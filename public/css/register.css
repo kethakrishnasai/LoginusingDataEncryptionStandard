@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: #89CFF0;
+    font-family: 'rubik';
+    padding: 1%;
+    text-align: center;
+}
+
+.register-form{
+    width: 30%;
+    margin: 9% auto;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.register-form h3{
+    font-family: 'rubik';
+    text-align: center;
+}
+
+.register-form .alert p{
+    margin: 1%;
+    font-size: 0.60em;
+}
+
+.register-form .fname-field{
+    width: 50%;
+    height: 4vh;
+    display: block;
+    margin: 7% auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.register-form .fname-field::placeholder{
+    color: #000000;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+.register-form .lname-field{
+    width: 50%;
+    height: 4vh;
+    display: block;
+    margin: 7% auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.register-form .lname-field::placeholder{
+    color: #000000;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+.register-form .email-field{
+    width: 50%;
+    height: 4vh;
+    display: block;
+    margin: 7% auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.register-form .email-field::placeholder{
+    color: #000000;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+.register-form .username-field{
+    width: 50%;
+    height: 4vh;
+    display: block;
+    margin: 7% auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.register-form .username-field::placeholder{
+    color: #000000;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+.register-form .password-field{
+    width: 50%;
+    height: 4vh;
+    display: block;
+    margin: 7% auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.register-form .password-field::placeholder{
+    color: #000000;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+.register-form .cpassword-field{
+    width: 50%;
+    height: 4vh;
+    display: block;
+    margin: 7% auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.register-form .cpassword-field::placeholder{
+    color: #000000;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+.register-form p{
+    text-align: center;
+    font-family: montserrat;
+    padding-top: 3%;
+}
+
+.register-form .submit{
+    cursor: pointer;
+    font-family: rubik;
+    font-weight: 700;
+    margin-left: 39%;
+    padding: 1% 5%;
+    background-color: #89CFF0;
+    border-radius: 5px;
+}

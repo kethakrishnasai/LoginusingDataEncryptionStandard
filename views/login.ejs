@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title> Login </title>
+        <link rel = "stylesheet" type="text/css" href="css/login.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1> DES Encryption </h1>
+        </div>
+
+        <div class="login-form">
+            <form method="POST" action="/login">
+                <h3> Login </h3>
+                <input type="text" name="username" class="login-field" placeholder="Username">
+                <input type="password" name="password" class="password-field" placeholder="Password">
+                <input type="submit" value = "Login" class="submit">
+                <p> Not an User? <a href="/register"> Register </a> </p>
+            </form>
+        </div>
+    </body>
+</html>

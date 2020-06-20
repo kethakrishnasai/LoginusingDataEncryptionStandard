@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: #89CFF0;
+    font-family: 'rubik';
+    padding: 1%;
+    text-align: center;
+}
+
+.login-form{
+    width: 30%;
+    margin: 9% auto;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.login-form h3{
+    font-family: 'rubik';
+    text-align: center;
+}
+
+.login-form .login-field{
+    width: 50%;
+    height: 4vh;
+    display: block;
+    margin: 7% auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.login-form .login-field::placeholder{
+    color: #000000;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+.login-form .password-field{
+    width: 50%;
+    height: 4vh;
+    display: block;
+    margin: 7% auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.login-form .password-field::placeholder{
+    color: #000000;
+    text-align: center;
+    font-family: 'montserrat';
+}
+
+.login-form p{
+    text-align: center;
+    font-family: montserrat;
+    padding-top: 3%;
+}
+
+.login-form .submit{
+    cursor: pointer;
+    font-family: rubik;
+    font-weight: 700;
+    margin-left: 41%;
+    padding: 1% 5%;
+    background-color: #89CFF0;
+    border-radius: 5px;
+    border-width: 0px;
+}
